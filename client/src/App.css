@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-page {
+
+ display: grid;
+ justify-content: center;
+ padding: 150px;
+
+}
+
+
+.login-box {
+  border: 3px solid black;
+  width: 700px;
+  height: 400px;
+justify-content: center;
+
+}
+
+.log-form {
+padding: 100px;
+
+
+
+}
+
+.log-lbl-user{
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 30px;
+  ;
+}
+
+.log-lbl-pass {
+  font-size: x-large;
+  font-weight: bold;
+  margin-right:10px;
+}
+.log-inp{
+  padding: 7px 8px;
+  margin-left: 5px;
+  margin: 10px;
+}
+.log-btn{
+  padding: 9px 18px;
+  margin-top: 10px;
+  background-color: lightgray;
+  color:black
+
+}
+
+.scoot-main-inp{
+padding: 5px 22px;
+margin: 10px;
+border-color: black;
+width: 250px;
+}
+.scoot-main-btn{
+padding: 5px 12px;
+  margin: 10px;
+  border-color: gray;
+}
+
+.active-scooters{
+  float: left;
+  margin: 10px;
+  padding: 5px 2px;
+  font-size: 22px;
+  width: 200px;
+border-color: black
+}
+
+
+.main-scooter{
+  display: grid;
+  padding: 100px;
+  grid-template-columns: repeat(auto-fit,350px);
+  grid-gap: 20px;
+  
+}
+
+.scooter-box{
+
+  border: 2px solid purple;
+  width: 300px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: inset;
+  font-size: x-large;
+  
+
+
+}
+
+
+
+.park-spot{
+  display: grid;
+  
+  grid-template-columns: repeat(auto-fit);
+}
+
+.park-box{
+
+  
+  /* explanation below */
+
+  width:450px;
+  height: 250px;
+  background-color: lightblue;
+  margin-top: 100px;
+ 
+}
+
+.park-lbl{
+  float: left;
+  padding: 5px;
+  font-size: 15px;
+}
+
+
+
+.park-span{
+  font-size: 17px;
+  
+  margin-top: 5px;
+  margin-right:80px;
+  color:white
+}
+
+
+.availabe-place{
+
+  margin-right: 100px;
+ 
+}
+
+.add-park-btn{
+padding: 15px 25px;
+background-color: gray;
+color: white;
+font-weight: bold;
+float: left;
+margin: 10px;
+
+}
+
+
+
+
+
+
+
+.main-form{
+    color: white;
+    border-radius: 25px;
+    width: 500px;
+    height: 600px;
+    border: 1px solid purple;
+    margin-left:500px;
+    margin-top:100px
+
+    
+}
+
+.add-mem-inp-main{
+    margin-top: 100px;
+    font-size: 20px;
+    height: 100vh;
+    color: white;
+}
+
+.add-mem-inp{
+    margin: 5px;
+    width: 300px;
+    height: 40px;
+}
+
+.user-box{
+
+  border: 3px solid lightblue;
+  width: 500px;
+  height: 100px;
+  margin: 5px;
+  font-size: 20px;
+  
+
+}
+
+.fails-main{
+  display: grid;
+  grid-gap: 25px;
+  margin: 15px;
+}
+
+.fail-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 600px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 25px;
+margin: 10px;
+}
+.fail-lbl{
+
+width: 200px;
+height:  120px;
+margin: 10px;
+font-weight: bold;
+}
+
+.fail-list{
+width: 300px;
+  height: 120px;
+
+
+}
